@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Counter from "./components.tsx/Counter";
+import Counter from "./components/Counter";
 
 // Store
 
