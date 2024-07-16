@@ -17,13 +17,13 @@ const Counter = () => {
       <h2 className="text-2xl">{count}</h2>
       <div className="flex gap-2">
         <button
-          className="bg-slate-500 p-1 rounded-lg text-white border-slate-800 border-solid border-2 hover:border-slate-300"
+          className="bg-slate-500 p-1 rounded-lg text-white hover:border-slate-800 hover:border-solid border-2 border-slate-300"
           onClick={() => dispatch(increment())}
         >
           Increment
         </button>
         <button
-          className="bg-slate-500 p-1 rounded-lg text-white border-slate-800 border-solid border-2 hover:border-slate-300"
+          className="bg-slate-500 p-1 rounded-lg text-white hover:border-slate-800 hover:border-solid border-2 border-slate-300"
           onClick={() => dispatch(decrement())}
         >
           Decrement

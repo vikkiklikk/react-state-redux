@@ -27,7 +27,7 @@ const ToDoApp: React.FC = () => {
         onChange={(e) => setInput(e.target.value)}
       />
       <button
-        className="bg-slate-500 p-1 rounded-lg text-white border-slate-800 border-solid border-2 hover:border-slate-300"
+        className="bg-slate-500 p-1 rounded-lg text-white hover:border-slate-800 hover:border-solid border-2 border-slate-300"
         onClick={handleAddTodo}
       >
         Add To List
